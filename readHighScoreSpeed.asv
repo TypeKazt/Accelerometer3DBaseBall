@@ -1,0 +1,10 @@
+function [ userName, index ] = readHighScoreSpeed( num, txt )
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+
+[value, index] = max(num(:,1));
+ballSpeed = value;
+userName = txt(index,:);
+
+end
+
